@@ -9,6 +9,7 @@ describe ('Test for the inventory and login page', () => {
         const loginBtn = await $('[data-test="login-button"]')
         await loginBtn.click()
     });
+    //skipped because issue #1
     it.skip('Empty cart test', async() => {
         await $('#shopping_cart_container').click()
 
