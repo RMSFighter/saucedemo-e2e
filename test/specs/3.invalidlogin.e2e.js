@@ -6,7 +6,7 @@ describe('Tests for login page', () => {
         const usernameInput = await $('[data-test="username"]')
         await usernameInput.setValue('standard_user3')
         const usernameInputValue = await usernameInput.getValue()
-        expectChai(usernameInputValue).to.equal('standard_user')
+        expectChai(usernameInputValue).to.equal('standard_user3')
 
         const passwordInput = await $('[data-test="password"]')
         await passwordInput.setValue('secret_sauce')
